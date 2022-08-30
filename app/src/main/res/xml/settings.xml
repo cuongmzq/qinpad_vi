@@ -1,0 +1,43 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:key="input_settings_category"
+        app:title="@string/input_settings_category"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:title="@string/open_onscreen_keyboard_manager"
+            app:key="open_onscreen_keyboard_manager"
+            app:iconSpaceReserved="false"/>
+
+        <Preference
+            app:title="@string/open_input_method_picker"
+            app:key="open_input_method_picker"
+            app:iconSpaceReserved="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="input_general_settings_category"
+        app:title="@string/input_general_settings_category"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="back_key_delete"
+            app:title="@string/back_key_delete"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:dialogTitle="# key function"
+            app:key="mode_repeat"
+            app:summary=""
+            app:title="# key function"
+            app:entries="@array/weekdays"
+            app:entryValues="@array/weekdays_values"
+            app:defaultValue="@array/empty_array"
+            app:iconSpaceReserved="false"/>
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

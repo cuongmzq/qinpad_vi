@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekdays">
+        <item>Cat</item>
+        <item>Dog</item>
+    </string-array>
+    <integer-array name="weekdays_values">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="empty_array">
+        <item>Cat</item>
+        <item>Dog</item>
+    </string-array>
+</resources>

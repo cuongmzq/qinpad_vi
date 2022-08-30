@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QinPad</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open_input_method_picker">Input Method</string>
+    <string name="open_onscreen_keyboard_manager">On-screen Keyboard Manager</string>
+    <string name="back_key_delete">Use Back key to delete</string>
+    <string name="input_settings_category">Input Settings</string>
+    <string name="input_general_settings_category">General</string>
+</resources>
